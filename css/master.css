@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+body {
+    /* background-image: url(../images/the-wicher.png); */
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-size: cover;
+    background-color: black;
+
+}
+
+nav a {
+    text-transform: uppercase;
+
+}
+
+nav li {
+    margin-right: 10px;
+
+}
+
+nav li a {
+    color: aliceblue !important;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.logo a {
+    color: aliceblue !important;
+    font-weight: 700;
+}
+
+.register-nav {
+    position: absolute;
+    right: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+
+}
+
+.reg button {
+    background-color: #FFA800;
+    color: #FFFFFF;
+    border-color: #FFA800;
+    padding: 0px 20px;
+    font-weight: 200;
+}
+
+.first-section h1,
+p {
+    color: #FFFFFF;
+}
+
+.first-section button {
+    background-color: #FFA800;
+    color: #FFFFFF;
+    border-color: #FFA800;
+    padding: 10px 24px;
+    font-weight: 500;
+}
+
+.first-section {
+    text-align: end;
+    margin-top: 30%;
+}
+
+.special body {
+    background-color: black !important;
+}
+
+h1 , p {
+    color: #FFFFFF !important;
+}
+
+.sale{
+    margin-top: 100px;
+}
+
+.girl{
+    
+    position: relative;
+    z-index: 999;
+}
+.sale-text {
+    position: relative;
+}
+
+.trailer{
+    position: absolute;
+    top: 175px;
+    left: 450px;
+}
+
+div.caption {
+    
+    display: none !important;
+}
